@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>this is static </h1>
+    <script>
+        let a = {
+            val:0,
+            toString(){
+                a.val++;
+                return a.val
+            },
+            valueOf(){
+                a.val++;
+                return a.val
+            }
+        }
+        console.log(+a)
+        console.log(+a)
+        console.log(+a)
+        if(a === 1 && a===2 && a===3){
+            console.log("heihei")
+        }
+    </script>
+</body>
+</html>
